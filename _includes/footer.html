@@ -3,8 +3,8 @@
     <div class="row">
       <div class="col l6 s12">
         <p class="grey-text text-lighten-3">This page brought to you by
-          <a class="grey-text text-lighten-5" href="https://pages.github.com/"
-          target="_blank">GitHub Pages</a> and <a class="grey-text text-lighten-5"
+          <a class="lime-text text-lighten-2" href="https://pages.github.com/"
+          target="_blank">GitHub Pages</a> and <a class="lime-text text-lighten-2"
           href="http://jekyllrb.com/" target="_blank">Jekyll</a>.</p>
       </div>
       <div class="col l6 s12">
@@ -12,7 +12,7 @@
         <ul>
           {% for post in site.posts limit 5 %}
               <li>
-                <a class="grey-text text-lighten-5" href="{{ post.url }}">{{ post.title }}</a>
+                <a class="lime-text text-lighten-2" href="{{ post.url }}">{{ post.date | date_to_string }} &mdash; {{ post.title }}</a>
               </li>
           {% endfor %}
           <hr />
@@ -24,7 +24,7 @@
   <div class="footer-copyright">
     <div class="container">
       &copy; Len Payne 2015. Site is available under Apache License at
-      <a class="grey-text text-lighten-5" href="http://github.com/LenPayne/LenPayne.github.io" target="_blank">GitHub</a>.
+      <a class="lime-text text-lighten-2" href="http://github.com/LenPayne/LenPayne.github.io" target="_blank">GitHub</a>.
     </div>
   </div>
 </footer>
