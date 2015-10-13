@@ -1,16 +1,18 @@
 <ul id="posts-dropdown" class="dropdown-content">
-  {% for post in site.posts %}
+  {% for post in site.posts limit 5 %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
   {% endfor %}
+  <hr />
+  <li><a href="/">See More</a></li>
 </ul>
 <nav>
   <div class="nav-wrapper light-blue darken-3">
     <a class="brand-logo left" href="/">Len Payne</a>
     <ul class="right">
       <li>
-        <a href="#!" class="dropdown-button" data-activates="posts-dropdown"><i class="material-icons right">view_module</i>Posts</a>
+        <a href="#!" class="dropdown-button" data-activates="posts-dropdown"><i class="material-icons right">view_module</i>Recent Posts</a>
       </li>
     </ul>
   </div>

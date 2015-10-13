@@ -7,6 +7,18 @@
           target="_blank">GitHub Pages</a> and <a class="grey-text text-lighten-5"
           href="http://jekyllrb.com/" target="_blank">Jekyll</a>.</p>
       </div>
+      <div class="col l6 s12">
+        <h5 class="grey-text text-lighten-3">Recent Posts</h5>
+        <ul>
+          {% for post in site.posts limit 5 %}
+              <li>
+                <a class="grey-text text-lighten-5" href="{{ post.url }}">{{ post.title }}</a>
+              </li>
+          {% endfor %}
+          <hr />
+          <li class="right"><a class="grey lighten-5 light-blue-text text-darken-3 btn waves-effect" href="/">See More</a></li>
+        </ul>
+      </div>
     </div>
   </div>
   <div class="footer-copyright">

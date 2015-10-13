@@ -5,11 +5,18 @@ nav .nav-wrapper i {
 
 /* Sticky Footers */
 body {
-   display: flex;
-   min-height: 100vh;
-   flex-direction: column;
- }
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 
- main {
-   flex: 1 0 auto;
- }
+main {
+  flex: 1 0 auto;
+}
+
+/* Clearfix */
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
+}
