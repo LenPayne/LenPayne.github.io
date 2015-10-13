@@ -1,0 +1,15 @@
+/* Fix for off-kilter logos in Mobile NavBars */
+nav .nav-wrapper i {
+  line-height: inherit;
+}
+
+/* Sticky Footers */
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
+
+ main {
+   flex: 1 0 auto;
+ }

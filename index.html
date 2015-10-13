@@ -1,0 +1,30 @@
+---
+title: Len Payne
+layout: default
+---
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="author">
+    <span class="date">{{ post.date | date_to_string }}</span>
+  </p>
+  <div class="content">
+    {{ post.excerpt }}
+  </div>
+  <div class="right"><a class="waves-effect btn light-blue darken-2" href="{{ post.url }}">Continue Reading</a></div>
+{% endfor %}
+
+<!-- Pagination links -->
+<ul class="pagination">
+  {% if paginator.previous_page %}
+    <li class="waves-effect"><a href="{{ paginator.previous_page_path }}" class="previous"><i class="material-icons">chevron_left</i></a></li>
+  {% else %}
+    <li class="waves-effect"><i class="material-icons">chevron_left</i></li>
+  {% endif %}
+    <li><span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span></li>
+  {% if paginator.next_page %}
+    <li class="waves-effect"><a href="{{ paginator.next_page_path }}" class="next"><i class="material-icons">chevron_right</i></a></li>
+  {% else %}
+    <li class="waves-effect"><i class="material-icons">chevron_right</i></li>
+  {% endif %}
+</div>
