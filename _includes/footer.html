@@ -2,35 +2,30 @@
   <div class="container">
     <div class="row">
       <div class="col l6 s12 grey-text text-lighten-3">
-        <h2 class="center-align">
-          <a href="mailto:info@lenpayne.ca" class="lime-text text-lighten-2"
+        <h2 class="container center-align" id="social-icons">
+          <a href="mailto:info@lenpayne.ca" class="col s4 l2 lime-text text-lighten-2"
           target="_blank"><i class="fa fa-envelope"></i></a>
-          &bull;
-          <a href="http://www.twitter.com/LenAtLambton" class="lime-text text-lighten-2"
+          <a href="http://www.twitter.com/LenAtLambton" class="col s4 l2 lime-text text-lighten-2"
           target="_blank"><i class="fa fa-twitter"></i></a>
-          &bull;
-          <a href="https://www.youtube.com/c/LenPayne" class="lime-text text-lighten-2"
+          <a href="https://www.youtube.com/c/LenPayne" class="col s4 l2 lime-text text-lighten-2"
           target="_blank"><i class="fa fa-youtube"></i></a>
-          &bull;
-          <a href="https://www.github.com/LenPayne" class="lime-text text-lighten-2"
+          <a href="https://www.github.com/LenPayne" class="col s4 l2 lime-text text-lighten-2"
           target="_blank"><i class="fa fa-github"></i></a>
-          &bull;
-          <a href="http://www.linkedin.com/pub/len-payne/25/856/884" class="lime-text text-lighten-2"
+          <a href="http://www.linkedin.com/pub/len-payne/25/856/884" class="col s4 l2 lime-text text-lighten-2"
           target="_blank"><i class="fa fa-linkedin"></i></a>
-          &bull;
-          <a href="http://www.flickr.com/photos/lenpayne" class="lime-text text-lighten-2"
+          <a href="http://www.flickr.com/photos/lenpayne" class="col s4 l2 lime-text text-lighten-2"
           target="_blank"><i class="fa fa-camera-retro"></i></a>
         </h2>
-        <p>This page brought to you by
+        <p class="col s12">This page brought to you by
           <a class="lime-text text-lighten-2" href="https://pages.github.com/"
           target="_blank">GitHub Pages</a> and <a class="lime-text text-lighten-2"
           href="http://jekyllrb.com/" target="_blank">Jekyll</a>, with help from
           <a class="lime-text text-lighten-2" href="http://materializecss.com/"
           target="_blank">Materialize</a>.</p>
-        <p>Len Payne is a Professor in the School of Computer Studies at <a class="lime-text text-lighten-2" href="https://www.lambtoncollege.ca"
+        <p class="col s12">Len Payne is a Professor in the School of Computer Studies at <a class="lime-text text-lighten-2" href="https://www.lambtoncollege.ca"
           target="_blank">Lambton College</a> in <a class="lime-text text-lighten-2" href="https://www.google.ca/maps/place/Lambton+College+of+Applied+Arts+and+Technology,+Sarnia,+ON+N7S/@42.975568,-82.349438,17z/data=!3m1!4b1!4m2!3m1!1s0x8825830adcd35f4d:0xdc35c6e606d0027a" target="_blank">Sarnia, ON</a>.</p>
-          <h5 class="grey-text text-lighten-3">Recent Posts</h5>
-          <ul>
+          <h5 class="col s12 grey-text text-lighten-3">Recent Posts</h5>
+          <ul class="col s12">
             {% for post in site.posts limit 5 %}
                 <li>
                   <a class="lime-text text-lighten-2" href="{{ post.url }}">{{ post.date | date_to_string }} &mdash; {{ post.title }}</a>

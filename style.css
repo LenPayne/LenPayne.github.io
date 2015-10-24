@@ -3,6 +3,11 @@ nav .nav-wrapper i {
   line-height: inherit;
 }
 
+/* Fix for Edge-Hugging Navbar */
+nav .nav-wrapper {
+  padding: 0 30px;
+}
+
 /* Sticky Footers */
 body {
   display: flex;
