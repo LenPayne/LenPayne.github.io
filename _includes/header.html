@@ -23,6 +23,9 @@
     <a class="brand-logo left" href="/">Len Payne</a>
     <a href="#" data-activates="mobile-nav" class="button-collapse right"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
+      <li>
+        <a href="/about.html">About</a>
+      </li>
       {% for category in site.categories %}
         <li>
           <a href="#!" class="dropdown-button" data-activates="{{ category[0] }}-dropdown"><i class="material-icons right">arrow_drop_down</i>{{ category[0] | capitalize }}</a>
@@ -33,6 +36,9 @@
       </li>
     </ul>
     <ul class="side-nav" id="mobile-nav">
+      <li>
+        <a href="/about.html">About</a>
+      </li>
       {% for category in site.categories %}
         <li class="no-padding">
           <ul class="collapsible collapsible-accordion">
