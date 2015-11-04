@@ -66,16 +66,18 @@ example, you can pick up a jQuery/JavaScript textbook and it covers exactly what
 you would expect. Or a Hadoop, or Scala, or whatever. I don't want to build that
 kind of learning tool. I want to build a tool that guides learners on a more
 whole-subject approach: for example, instead of covering jQuery from nose to toes,
-cover a series of examples (and always give alternatives.)
+cover a series of examples (and always give alternatives.) Specifically, I'm
+talking about instead of "How do I build XYZ in JavaScript?" it's more of a "How
+do I build XYZ in theory?" with a sample in vanilla JS, jQuery, TypeScript, etc.
 
 I will be building articles/posts/etc with this format in mind. As time allows.
 
 ### Video Production
 
 Which brings me to video. YouTube is a ridiculously open platform for monetizing
-content. Make good videos: provide a service. Then, you will see revenue. It's
-not a torrent, but it can turn into one. So I want to pair every article with a
-series of videos demonstrating the skills.
+content. Make good videos. As you provide a service, then you will see revenue.
+It's not a torrent, but it can turn into one. So I want to pair every article
+with a series of videos demonstrating the skills.
 
 So for example, let's say I was doing an article on "Building a MEAN App", I would
 write the article at a high level (ie- 3-5min read) that covered the "Why" of
