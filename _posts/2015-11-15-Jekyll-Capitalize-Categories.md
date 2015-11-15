@@ -13,7 +13,7 @@ category" in `site.categories`.
 I iterate over `site.categories` to build my navigation menu, so I wanted that
 case-sensitivity back. I found a hack that works. Keep reading to see my solution.
 
-<!-- more -->
+<!--more-->
 
 Note: There is almost certainly a clean fix by adding plugins, but I am using
 GitHub Pages for my site, and do not control the Jekyll configuration.
