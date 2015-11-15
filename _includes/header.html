@@ -8,7 +8,7 @@
   <li><a href="/">See More</a></li>
 </ul>
 {% for category in site.categories %}
-  <ul id="{{ category[0] }}-dropdown" class="dropdown-content">
+  <ul id="{{ category[0] | replace:' ','-' }}-dropdown" class="dropdown-content">
     {% for post in category[1] limit 5 %}
         <li>
           <a href="{{ post.url }}">{{ post.title }}</a>
@@ -28,7 +28,7 @@
       </li>
       {% for category in site.categories %}
         <li>
-          <a href="#!" class="dropdown-button" data-activates="{{ category[0] }}-dropdown"><i class="material-icons right">arrow_drop_down</i>{{ category[0] | capitalize }}</a>
+          <a href="#!" class="dropdown-button" data-activates="{{ category[0] | replace:' ','-' }}-dropdown"><i class="material-icons right">arrow_drop_down</i>{{ category[1][0].category  }}</a>
         </li>
       {% endfor %}
       <li>
@@ -43,7 +43,7 @@
         <li class="no-padding">
           <ul class="collapsible collapsible-accordion">
             <li>
-              <a class="collapsible-header"><i class="material-icons right">arrow_drop_down</i>{{ category[0] | capitalize }}</a>
+              <a class="collapsible-header"><i class="material-icons right">arrow_drop_down</i>{{ category[1][0].category  }}</a>
               <ul class="collapsible-body">
                 {% for post in category[1] limit 5 %}
                     <li>

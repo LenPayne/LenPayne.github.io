@@ -37,3 +37,8 @@ main {
     font-size: x-large;
   }
 }
+
+code {
+  color: #0277BD;
+  font-weight: bold;
+}
