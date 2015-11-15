@@ -25,3 +25,15 @@ main {
   display:table;
   clear:both;
 }
+
+/* Media-Query Responsive Font for Medium Screens w/ Font-Awesome */
+@media (min-width: 1440px) and (max-width: 1599px) {
+  #social-icons a i {
+    font-size: smaller;
+  }
+}
+@media (min-width: 992px) and (max-width: 1439px) {
+  #social-icons a i {
+    font-size: x-large;
+  }
+}
