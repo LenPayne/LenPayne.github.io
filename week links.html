@@ -7,8 +7,8 @@ layout: default
 {% if post.category == 'Week Links' %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <div><small>Written {{ post.date | date: "%F" }} by Len Payne in
-    {% for category in post.categories %}<a href="/{{category}}.html">
-      {{ category | capitalize }}</a> {% endfor %}</small></div>
+    <a href="/{{ post.category }}.html">{{ post.category }}</a>
+  </small></div>
   <div class="content">
     {{ post.excerpt }}
   </div>
