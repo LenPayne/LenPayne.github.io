@@ -11,8 +11,8 @@ nav .nav-wrapper {
 /* Sticky Footers */
 body {
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 main {
@@ -21,9 +21,9 @@ main {
 
 /* Clearfix */
 .clearfix:after {
+  clear:both;
   content:"";
   display:table;
-  clear:both;
 }
 
 /* Media-Query Responsive Font for Medium Screens w/ Font-Awesome */
@@ -43,8 +43,16 @@ code {
   font-weight: bold;
 }
 
+.title {
+  font-size: 5rem;
+}
+
+.subtitle {
+  margin-top: 4rem;
+}
+
 .content ul {
-  padding-left: 2em;
+  padding-left: 2rem;
 }
 
 .content ul li {
