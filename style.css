@@ -42,3 +42,11 @@ code {
   color: #0277BD;
   font-weight: bold;
 }
+
+.content ul {
+  padding-left: 2em;
+}
+
+.content ul li {
+  list-style-type: square;
+}
