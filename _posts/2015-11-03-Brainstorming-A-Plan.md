@@ -25,7 +25,7 @@ and the constant stream of [Hacker News](https://news.ycombinator.com/), and
 I think it would benefit me and my students/readers/audience to continue the
 tradition and curate some content that I've been reading. I regularly use the
 [Hootsuite](https://hootsuite.com/) Chrome extension to share articles easily via
-[Twitter](https://twitter.com/LenAtLambton). But I think there would be some use
+[Twitter](https://twitter.com/LenPayne). But I think there would be some use
 to myself and others to build a weekly curated list of "cool stuff I saw."
 
 Just another drop in the bucket in most cases, but something of a TL;DR exercise
