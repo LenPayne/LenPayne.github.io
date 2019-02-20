@@ -1,9 +1,31 @@
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 <script>
   $(document).ready(function() {
     $(".button-collapse").sideNav();
   });
+</script>
+<script type="text/javascript" src="/assets/mastodon.widget/mastodon.widget.js"></script>
+<script>
+$(document).ready(function() {
+// jQUERY is required!
+  var mapi = new MastodonApi({
+    target_selector  : '#myTimeline'
+    ,instance_uri    : 'https://cybre.space'
+    ,access_token    : '3b5a6eeeeaa5d545e94af74530306dc8f6bf6c11bd13227ec9077b476cabd092'
+    ,account_id      : '159806'
+    // optional parameters
+    // ===================
+    // - status max
+    ,toots_limit     : 5
+    // - if you are using font-awesome:
+    ,pic_icon        : '<i class="fa fa-picture-o"></i>'
+    ,boosts_count_icon     : '<i class="fa fa-retweet"></i>'
+    ,favourites_count_icon : '<i class="fa fa-star"></i>'
+    // or a picture
+    //,pic_icon        : '<img src="mypicicon.gif" />'
+  });
+});
 </script>
 <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

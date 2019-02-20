@@ -32,6 +32,8 @@ before I get more specifically into DragonFly BSD.
 
 #### What is DragonFly BSD?
 
+<!--more-->
+
 In 2003, one of the core FreeBSD developers, Matthew Dillon, disagreed fundamentally
 with the direction that FreeBSD was taking with the rise of threading and symmetric
 multiprocessing (SMP). He tried to bring change within the FreeBSD project, but
