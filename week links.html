@@ -1,10 +1,10 @@
 ---
-title: The Week Links
+title: The Link Dump
 layout: default
 ---
 <!-- This loops through the paginated posts -->
 {% for post in site.posts %}
-{% if post.category == 'Week Links' %}
+{% if post.category == 'Link Dump' %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <div><small>Written {{ post.date | date: "%F" }} by Len Payne in
     <a href="/{{ post.category }}.html">{{ post.category }}</a>

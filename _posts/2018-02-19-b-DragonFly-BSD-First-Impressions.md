@@ -1,7 +1,7 @@
 ---
 title: DragonFly BSD - First Impressions
 layout: post
-category: DragonFly BSD
+category: Learning
 ---
 As part of [SLLUG](https://www.sllug.ca), we have monthly chats about open source
 software. One of the places I've had a significant blind spot in my FLOSS knowledge

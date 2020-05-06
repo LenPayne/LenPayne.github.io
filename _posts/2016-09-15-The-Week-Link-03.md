@@ -1,7 +1,7 @@
 ---
 title: Linux Learning Options
-layout: weeklinks
-category: Week Links
+layout: linkdump
+category: Link Dump
 ---
 One of the things I get to do is introduce people to the GNU/Linux operating system.
 

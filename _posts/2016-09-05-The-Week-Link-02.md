@@ -1,7 +1,7 @@
 ---
 title: News Sources I Follow
-layout: weeklinks
-category: Week Links
+layout: linkdump
+category: Link Dump
 ---
 Welcome back to good intentions. This week I'd like to focus on tech news sources
 so that I can provide a comprehensive list for my new students that are starting

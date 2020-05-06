@@ -1,7 +1,7 @@
 ---
 title: The Canadian Tech Industry
-layout: weeklinks
-category: Week Links
+layout: linkdump
+category: Link Dump
 ---
 This week I'd like to focus on the state of the industry in Canadian Tech. A
 small group of us from [the Cube](http://mylambton.ca/theCube) went to the
