@@ -152,21 +152,21 @@ and is offered under a BSD 3-Clause license.
 However, as it quickly gained popularity, the original authors realized they could
 potentially add premium and enterprise features on top as paid bonuses. The
 flexibility of the BSD license allowed them to build on top without sharing. This
-business model became [Redis Labs](https://redislabs.com/).
+business model became [Redis (the company)](https://redis.com/).
 
-For a time, Redis Labs enjoyed their status as a growing tech company, but the
+For a time, Redis enjoyed their status as a growing tech company, but the
 truth of the matter was that their core service (Redis) was free. So some of
 the big tech companies, [like Amazon](https://aws.amazon.com/elasticache/), were
-undercutting Redis Labs on their own product.
+undercutting Redis on their own product.
 
-In response to this, [Redis Labs changed their licenses... a couple times](https://redislabs.com/blog/redis-labs-modules-license-changes/).
+In response to this, [Redis changed their licenses... a couple times](https://redis.com/blog/redis-labs-modules-license-changes/).
 
 As I mentioned above, there's only one Red Hat. Only one company has taken a fully
 open sourced technology and made a billion dollars off of building a support
 system around that free technology. Most companies that choose to share their IP
 as open source too early will get squashed by the big dogs.
 
-Redis Labs is holding on, and fighting the good fight, but they are definitely
+Redis is holding on, and fighting the good fight, but they are definitely
 reeling from a fight with Amazon that Jeff Bezos probably doesn't even know is
 happening.
 
